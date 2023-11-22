@@ -1,0 +1,110 @@
+.frameChild {
+  background-color: var(--color-darkorange-200);
+  border-right: 2px solid var(--color-orange-200);
+  box-sizing: border-box;
+  width: 2px;
+  height: 15px;
+}
+.frameChild,
+.usefulLinks {
+  position: relative;
+}
+.frameContainer,
+.lineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineParent {
+  gap: var(--gap-4xs);
+}
+.frameContainer {
+  align-self: stretch;
+}
+.loremIpsumDolor {
+  position: relative;
+  display: inline-block;
+  width: 183px;
+  flex-shrink: 0;
+}
+.loremIpsumDolorSitAmetConWrapper {
+  width: 193px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameWrapper,
+.yourEmailAddrsssWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-4xl);
+}
+.frameWrapper,
+.yourEmailAddrsssWrapper {
+  width: 201px;
+  padding: var(--padding-2xs) 0;
+  box-sizing: border-box;
+}
+.yourEmailAddrsssWrapper {
+  border-radius: var(--br-mid);
+  background-color: var(--color-gray-400);
+  width: 204px;
+  height: 38px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+}
+.vectorIcon {
+  position: relative;
+  width: 9.4px;
+  height: 14.5px;
+}
+.caretrightfill,
+.vectorWrapper {
+  background-color: var(--color-darkorange-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+.caretrightfill {
+  border-radius: var(--br-2xl);
+  overflow: hidden;
+  padding: 0 var(--padding-10xs);
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  align-items: center;
+}
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkgray);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs);
+  color: var(--text-color);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

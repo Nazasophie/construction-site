@@ -1,0 +1,188 @@
+.frameChild,
+.vectorIcon {
+  position: relative;
+  width: 220px;
+  height: 98px;
+}
+.vectorIcon {
+  width: 43px;
+  height: 44px;
+  z-index: 0;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  margin: 0 !important;
+  height: 29.09%;
+  width: 62.33%;
+  top: 18.86%;
+  right: 18.84%;
+  bottom: 52.05%;
+  left: 18.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 29.32%;
+  width: 62.56%;
+  top: 51.82%;
+  right: 18.6%;
+  bottom: 18.86%;
+  z-index: 2;
+}
+.omegaX5fConstruction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.constructure {
+  position: relative;
+  display: inline-block;
+  width: 125px;
+  flex-shrink: 0;
+}
+.constructureWrapper,
+.frameWrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.constructureWrapper {
+  flex: 1;
+}
+.frameWrapper3 {
+  align-self: stretch;
+}
+.phloxGroup {
+  position: relative;
+  display: inline-block;
+  width: 122px;
+  flex-shrink: 0;
+}
+.phloxGroupWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -3px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-200);
+}
+.frameParent1,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent1 {
+  width: 122px;
+  justify-content: center;
+}
+.frameWrapper2 {
+  position: absolute;
+  top: 8px;
+  left: 54px;
+  justify-content: flex-start;
+}
+.omegaX5fConstructionParent {
+  flex: 1;
+  position: relative;
+  height: 68px;
+}
+.frameWrapper,
+.frameWrapper1 {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 0;
+}
+.frameItem {
+  margin: 0 !important;
+  position: absolute;
+  top: 13px;
+  left: 59px;
+  z-index: 1;
+}
+.frameDiv {
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-2xs);
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-rubik);
+  display: inline-block;
+  width: 175px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.facebookIcon,
+.twitterIcon {
+  position: relative;
+  width: 19px;
+  height: 26px;
+}
+.facebookIcon {
+  height: 27px;
+}
+.twitterParent {
+  align-self: stretch;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.frameParent {
+  width: 176px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--title-text);
+}
