@@ -11,7 +11,7 @@ const HOMEPAGE = () => {
         >{`We Are The Leader In Construction  `}</b>
       </div>
       <div className={styles.about}>
-        <img className={styles.aboutChild} alt="" src="/line-1.svg" />
+      <img className={styles.instanceChild} alt="" src="/line-3.svg" />
         <div className={styles.aboutPlusxGroup}>About Plusx Group</div>
       </div>
       <div className={styles.component1}>

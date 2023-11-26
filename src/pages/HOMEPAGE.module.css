@@ -37,6 +37,8 @@
   padding: var(--padding-5xs) 40px;
   text-align: center;
 }
+
+
 .component1Child,
 .webcasts {
   position: absolute;
