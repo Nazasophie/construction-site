@@ -11,7 +11,7 @@ const HOMEPAGE = () => {
         >{`We Are The Leader In Construction  `}</b>
       </div>
       <div className={styles.about}>
-      <img className={styles.instanceChild} alt="" src="/line-3.svg" />
+      <img className={styles.instanceChild} alt="" src="/" />
         <div className={styles.aboutPlusxGroup}>About Plusx Group</div>
       </div>
       <div className={styles.component1}>
@@ -24,7 +24,7 @@ const HOMEPAGE = () => {
         >{`Lorem ipsum dolor sit amet consectetur. Nam mi dolor cras nisl orci. Turpis fringilla pharetra facilisis eget sociis faucibus elit pharetra. `}</div>
       </div>
       <div className={styles.vectorParent}>
-        <img className={styles.instanceChild} alt="" src="/line-3.svg" />
+        <img className={styles.instanceChild} alt="" src="/line 1.png" />
         <div
           className={styles.weAreThe}
         >{`Lorem ipsum dolor sit amet consectetur. Nam mi dolor cras nisl orci. Turpis fringilla pharetra facilisis eget sociis faucibus elit pharetra. dolor cras nisl orci. Turpis fringilla pharetra facilisis eget sociis faucibus elit pharetra. `}</div>
