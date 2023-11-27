@@ -62,7 +62,7 @@ const HOMEPAGE = () => {
         <div className={styles.frameParent1}>
           <div className={styles.frameParent2}>
             <div className={styles.emojioneV1buildingConstructParent}>
-              <img
+            <img
                 className={styles.emojioneV1buildingConstructIcon}
                 alt=""
                 src="/emojionev1buildingconstruction1.svg"
@@ -80,7 +80,7 @@ const HOMEPAGE = () => {
           </div>
           <div className={styles.frameParent3}>
             <div className={styles.notoV1womanConstructionWorParent}>
-              <img
+            <img
                 className={styles.emojioneV1buildingConstructIcon}
                 alt=""
                 src="/notov1womanconstructionworker1.svg"
@@ -404,10 +404,8 @@ const HOMEPAGE = () => {
           </div>
         </div>
         <div className={styles.playArrowParent}>
-          <img className={styles.playArrowIcon} alt="" src="/line-1.svg" />
-          <img className={styles.playArrowIcon} alt="" src="/line-1.svg" />
-          <img className={styles.playArrowIcon} alt="" src="/line-1.svg" />
-          <img className={styles.playArrowIcon} alt="" src="/line-1.svg" />
+  
+         
           <div className={styles.loremIpsumDolorSitAmetConWrapper7}>
             <div className={styles.loremIpsumDolor10}>
               Lorem ipsum dolor sit amet consectetur. Est adipiscing ultricies

@@ -242,6 +242,7 @@
   align-items: center;
   justify-content: center;
   padding: var(--padding-lg) 0;
+  margin-bottom: 60px;
 }
 .refineConstruction {
   align-self: stretch;
@@ -275,6 +276,7 @@
 .notoV1womanConstructionWorParent {
   flex: 1;
   padding: var(--padding-lg) 0;
+  margin-bottom: 50px;
 }
 .frameParent3,
 .notoV1womanConstructionWorParent,
@@ -288,6 +290,7 @@
 .refineConstructionGroup {
   overflow: hidden;
   gap: var(--gap-lgi);
+  margin-bottom: 10px;
 }
 .frameParent3 {
   flex: 1;
@@ -300,6 +303,7 @@
   height: 83px;
   overflow: hidden;
   flex-shrink: 0;
+  margin-bottom: 30px;
 }
 .frameChild2 {
   width: 243px;
